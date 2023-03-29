@@ -1,0 +1,27 @@
+.carousel-item img{
+    height: 375px;
+    width: 500px;
+}
+
+.md-5{
+    margin-top: 150px !important;
+}
+
+body{
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbf2b5, #cbf2b5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbf2b5, #cbf2b5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.dropdown-menu img{
+    height: 20px;
+    width: 20px;
+    justify-content: flex-end;
+}
+
+.container h1{
+    text-align: center;
+    border-color: rgb(255, 101, 44);
+}
+
