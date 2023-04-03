@@ -1,0 +1,81 @@
+ /* Aqui ajuste los tamaños de las imagenes y use margin-top
+ para hacer una separacion entre la barra de arriba y el carousel*/
+.carousel-inner img{
+    width: 600px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+/* Aqui coloque que en la clase contenedor-informacion se veria en fila osea de forma horizontal con el comando flex- direction: row
+ademas de colocar otro margin-top de 30px para hacer una pequeña separacion entre el carousel y el acerca de nosotros*/
+.contenedor-informacion{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+/* Aqui solo edito de tamaño la imagen y le aplico un border-radius de 50% que me permite dejar la imagen 
+de forma circular y de esa forma quitando el borde blanco*/
+.contenedor-informacion img{
+    width: 350px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* Aqui solo cambie el background es decir el color del fondo de la clase o contenedor acerca-de,
+ademas de tambien cambiar el color de las letras a blanco*/
+.acerca-de{
+    
+    background-color: rgb(41, 170, 41);
+    color: snow;
+}
+
+/* Aca solo intento ajustar la imagen que esta a la derecha del Acerca de nosotros */
+.navbar-brand img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border: solid chocolate;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 100px;
+    
+}
+
+.contenedor-cuadernosInfo{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(234, 130, 234);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.contenedor-cuadernosInfo img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.contenedor-cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+}
+
+.item-card{
+    padding: 30px;
+}
+
+
+
+
+
+ 
